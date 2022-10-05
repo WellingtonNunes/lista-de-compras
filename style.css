@@ -144,7 +144,6 @@ button{
     .comp-content{
         flex-direction: column;
         z-index: 1;
-        border: 1px solid red;
     }
     .inputTarefa input{
         font-size: 1em;
@@ -154,9 +153,13 @@ button{
     }
     .lista{
         overflow: hidden;
-        border: 1px solid red;
     }
     li{
         margin: 5px 0;
+    }
+}
+@media(max-width: 580px){
+    .content{
+        width: 90%;
     }
 }
