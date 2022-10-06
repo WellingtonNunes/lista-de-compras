@@ -1,5 +1,5 @@
 
-const itemInput = document.querySelector('#btnAdd');
+const itemInput = document.querySelector('input');
 const btn = document.querySelector('#btn-addItem');
 const campoLista = document.querySelector('.lista');
 const lista = document.querySelector('ul');
