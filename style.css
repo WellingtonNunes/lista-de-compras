@@ -31,10 +31,12 @@ h1{
 }
 .comp-content{
     width: 100%;
+    height: 30%;
     position: absolute;
-    top: 1em;
+    top: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 12px;
 }
 .inputTarefa input{
@@ -61,7 +63,6 @@ button#btn-addItem{
     width: 100%;
     height: 70%;   
     overflow-x: auto;
-    margin: 5px;
 }
 .lista::-webkit-scrollbar{
     width: 9px;
@@ -160,10 +161,12 @@ button{
     }
     .comp-content{
         position: absolute;
-        height: auto;
         top: 0;
         flex-direction: column;
         padding: 12px;
+    }
+    .inputTarefa{
+        width: 100%;
     }
     .inputTarefa input{
         font-size: 1em;
